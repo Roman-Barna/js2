@@ -129,19 +129,88 @@
 // console.log(d)
 
 
-let s = 150
-const min = 60
+// let s = 150
+// const min = 60
 
-let clock = s / min
-d = Math.trunc(clock)
-console.log(d)
+// let clock = s / min
+// d = Math.trunc(clock)
+// console.log("min:", d)
 
-let sek = s % min
-console.log(sek)
-
-
+// let sek = s % min
+// console.log("sek:", sek)
 
 
+// alert("Hello")
 
 
 
+
+// let firstName = prompt("Введіть своє імя")
+
+// alert(firstName)
+
+
+// let num1 = +prompt('Enter number1:')
+// let num2 = +prompt('Enter number2:')
+
+// let sum = num1 + num2
+
+// alert(sum)
+// let s = 150
+// const min = 60
+// let clock = s / min
+//  d = Math.trunc(clock)
+// //  console.log("min:", d)
+
+//  let sek = s % min
+// //  console.log("sek:", sek)
+
+//  d = +prompt('Enter min:')
+
+//  sek = +prompt('Enter sek:')
+
+// alert(sum)
+
+
+// let s = 150
+// const min = 60
+
+// let clock = s / min
+//  d = Math.trunc(clock)
+// alert("min:", +d)
+
+//  let sek = s % min
+//  alert("sek:", +sek)
+
+
+// let s = +prompt("Enter number: ")
+// const secInMin = 60
+// let min = Math.trunc(s / secInMin)
+// let sec = s % secInMin
+// // alert("Min: " + min + ", Sec: " + sec);
+// alert(`Min: ${min}, Sec: ${sec}`)
+
+
+// ТЕРНАРНИЙ ОПЕРАТОР
+// загальний синтаксис тернального оператора:
+// умова ? дія1 : дія2
+
+// let a = 5
+// let b = 4
+
+// a > b ? console.log(a) : console.log(b)
+
+
+// let a = +prompt("Enter first number: ")
+// let b = +prompt("Enter last number: ")
+// let max = a > b ? a : b
+// alert(max)
+
+
+let a = 121, b = 200, c = 23, d = 68
+
+let one = a > b ? a : b
+let two = c > d ? c : d
+let sum = one > two ? one : two
+
+alert(sum)
